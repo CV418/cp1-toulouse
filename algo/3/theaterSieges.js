@@ -17,8 +17,16 @@ exemple :
 ] 
 */
 
-function theaterSieges() {
-  // Your code here !
+function theaterSieges(x, y) {
+
+  for (let i = 0; i < x.length; i++) {
+    for (let j = 0; j < y.length; j++) {
+      return y[i] + x[j]
+    }
+
+
+    // Your code here !
+  }
 }
 
 console.log(theaterSieges());
